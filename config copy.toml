@@ -1,0 +1,50 @@
+baseURL      = "https://42devdiaries.netlify.app/"
+languageCode = "en-us"
+theme        = "ananke"
+title        = "42 Dev Diaries"
+
+DefaultContentLanguage = "en"
+Paginate               = 12
+SectionPagesMenu       = "main"
+disqusShortname        = "42devdiaries"
+enableRobotsTXT        = true
+googleAnalytics        = ""
+
+[languages]
+  [languages.en]
+  contentDir = "content/en"
+  title      = "42 Dev Diaries"
+  weight     = 1
+  [languages.pt]
+  contentDir = "content/pt"
+  title      = "Diario Dev da 42"
+  weight     = 2
+
+[sitemap]
+changefreq = "daily"
+filename   = "sitemap.xml"
+priority   = 0.5
+
+[params]
+description = "Daily blog posts about my progress on 42 S Paulo."
+favicon     = ""
+site_logo   = ""
+
+background_color_class = "bg-light-silver"
+body_classes           = "mulish"
+custom_css             = [ "css/custom.css" ]
+featured_image         = "/images/ft_s_paulo.jpg"
+post_content_classes   = "roboto"
+recent_posts_number    = 3
+
+facebook      = ""
+github        = "https://github.com/librity/ft_dev_diaries"
+gitlab        = ""
+instagram     = ""
+linkedin      = "https://www.linkedin.com/in/luis-geniole-b2b22aba/"
+mastodon      = ""
+rss           = ""
+slack         = ""
+stackoverflow = "https://stackoverflow.com/users/12460955/%d7%9c%d7%99%d7%90%d7%95%d7%a8"
+twitter       = ""
+youtube       = ""
